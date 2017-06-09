@@ -1,5 +1,5 @@
 """
-Definition of urls for FoodControl.
+Definition of urls for AmazoniaPyCon2017.
 """
 
 from datetime import datetime
