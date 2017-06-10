@@ -14,7 +14,7 @@ def home(request):
         request,
         'app/index.html',
         {
-            'title':'Home Page',
+            'title':'Inicio',
             'year':datetime.now().year,
         }
     )
@@ -26,8 +26,8 @@ def contact(request):
         request,
         'app/contact.html',
         {
-            'title':'Contact',
-            'message':'Your contact page.',
+            'title':'Contato',
+            'message':'Como entrar em contato comigo.',
             'year':datetime.now().year,
         }
     )
@@ -39,8 +39,8 @@ def about(request):
         request,
         'app/about.html',
         {
-            'title':'About',
-            'message':'Your application description page.',
+            'title':'O que é isso?',
+            'message':'O Mural de mensagens do Amazonia PyCon 2017',
             'year':datetime.now().year,
         }
     )
